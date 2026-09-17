@@ -51,7 +51,7 @@ public class MainActivity extends Activity {
             if (text.isEmpty()) {
                 status.setText("Please enter a video idea first.");
             } else {
-                status.setText("Your video idea is received! AI video generation will be connected next.");
+                Toast.makeText(MainActivity.this, "Button is working!", Toast.LENGTH_SHORT).show();
             }
         });
 
